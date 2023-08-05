@@ -1,0 +1,95 @@
+/* Font Styles */
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+#mainScreen {
+  border: 1px solid #000;
+  background-image: url("resource/Background/Background1.png");
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+.startTitle {
+  font-family: "MedievalSharp", cursive;
+  font-size: 70px;
+  position: absolute;
+  right: 50%;
+  top: 1%;
+  text-shadow: 1px 1px 0px red, 2px 2px 0px burlywood, 3px 3px 0px #000,
+    4px 4px 0px #333, 5px 5px 0px #333;
+  color: brown;
+}
+.start-btn {
+  background: url("resource/GameResource/mainMenu/BannerPix.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 51.5%;
+  bottom: 52%;
+  width: 260px;
+  height: 65px;
+  border: none;
+  font-family: "MedievalSharp", cursive;
+  font-size: 30px;
+  color: brown;
+}
+
+.lvl1 {
+  background: url("resource/GameResource/mainMenu/BannerPix.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 51.5%;
+  bottom: 46%;
+  width: 260px;
+  height: 65px;
+  border: none;
+  font-family: "MedievalSharp", cursive;
+  font-size: 25px;
+  color: brown;
+}
+.lvl2 {
+  background: url("resource/GameResource/mainMenu/BannerPix.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 51.5%;
+  bottom: 40%;
+  width: 260px;
+  height: 65px;
+  border: none;
+  font-family: "MedievalSharp", cursive;
+  font-size: 25px;
+  color: brown;
+}
+
+.gm-Title {
+  font-family: "MedievalSharp", cursive;
+  font-size: 70px;
+  position: absolute;
+  right: 50%;
+  top: 1%;
+  color: brown;
+  text-shadow: 1px 1px 0px red, 2px 2px 0px burlywood, 3px 3px 0px #000,
+    4px 4px 0px #333, 5px 5px 0px #333;
+}
+
+.score-title {
+  font-family: "MedievalSharp", cursive;
+  font-size: 70px;
+  position: absolute;
+  right: 53.5%;
+  bottom: 45%;
+  text-shadow: 1px 1px 0px red, 2px 2px 0px burlywood, 3px 3px 0px #000,
+    4px 4px 0px #333, 5px 5px 0px #333;
+  color: brown;
+}
+.p-score {
+  font-family: "MedievalSharp", cursive;
+  font-size: 70px;
+  position: absolute;
+  right: 56%;
+  top: 50%;
+  text-shadow: 1px 1px 0px red, 2px 2px 0px burlywood, 3px 3px 0px #000,
+    4px 4px 0px #333, 5px 5px 0px #333;
+  color: brown;
+}
